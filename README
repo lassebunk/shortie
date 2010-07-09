@@ -1,0 +1,23 @@
+== About Shortie
+Shortie makes it easy to shorten URLs with any service directly from your Ruby applications.
+
+== How to make your own shortener
+Take a look at the shorteners in lib/shortie/shorteners to se how a shortener is made.
+Basically it's just doing it like this:
+
+module Shortie
+  module Shorteners
+    class Bitly < BaseShortener
+      def shorten
+				# communicating with bit.ly.
+				return url
+      end
+    end
+    Service.register("bitly", "bit.ly", Bitly)
+  end
+end
+
+After creating a new shortener please send me a pull request and I'll implement your shortener as soon as possible.
+
+== Using Shortie on other platforms than Ruby
+You can use Shortie as a service at http://shortservice.net. Take a look at http://shortservice.net/api for info on how to use the API.

@@ -19,8 +19,8 @@ module Shortie
   module Shorteners
     class Bitly < BaseShortener
       def shorten
-				# communicating with bit.ly.
-				return url
+        # communicating with bit.ly.
+        return url
       end
     end
     Service.register("bitly", "bit.ly", Bitly)

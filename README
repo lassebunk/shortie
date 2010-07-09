@@ -12,7 +12,7 @@ To get a list of all services:
   Service.all.each { |s| puts service.key + ": " + service.name}
 
 == How to make your own shortener
-Take a look at the shorteners in lib/shortie/shorteners to se how a shortener is made.
+Take a look at the shorteners in lib/shortie/shorteners to see how a shortener is made.
 Basically it's just doing it like this:
 
 module Shortie

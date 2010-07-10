@@ -30,4 +30,4 @@ end
 After creating a new shortener please send me a pull request and I'll implement your shortener as soon as possible.
 
 == Using Shortie on other platforms than Ruby
-You can use Shortie as a service at http://shortservice.net. Take a look at http://shortservice.net/api for info on how to use the API.
+You can use Shortie as a service at http://shortservice.lassebunk.dk. Take a look at http://shortservice.lassebunk.dk/api for info on how to use the API.

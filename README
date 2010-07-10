@@ -6,7 +6,7 @@ $ sudo gem install shortie
 
 == Using Shortie
 In your Ruby code, to shorten a URL:
-  Service.find_by_key("bitly").shorten("http://github.com)
+  Service.find_by_key("bitly").shorten("http://github.com")
 
 To get a list of all services:
   Service.all.each { |s| puts service.key + ": " + service.name}

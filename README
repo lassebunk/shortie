@@ -5,6 +5,10 @@ Shortie makes it easy to shorten URLs with any service directly from your Ruby a
 $ sudo gem install shortie
 
 == Using Shortie
+Require Shortie:
+  require 'rubygems'
+  require 'shortie'
+
 In your Ruby code, to shorten a URL:
   Service.find_by_key("bitly").shorten("http://github.com")
 

@@ -1,16 +1,1 @@
 Dir[File.dirname(__FILE__) + "/shorteners/*.rb"].each {|file| require file }
-
-#require 'shortie/shorteners/snipurl'
-#require 'shortie/shorteners/bitly'
-#require 'shortie/shorteners/cligs'
-#require 'shortie/shorteners/cllk'
-#require 'shortie/shorteners/idek'
-#require 'shortie/shorteners/isgd'
-#require 'shortie/shorteners/rubyurl'
-#require 'shortie/shorteners/shortie'
-#require 'shortie/shorteners/snim'
-#require 'shortie/shorteners/snipr'
-#require 'shortie/shorteners/snurl'
-#require 'shortie/shorteners/tinycc'
-#require 'shortie/shorteners/tinyurl'
-#require 'shortie/shorteners/twurl'
